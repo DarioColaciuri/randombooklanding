@@ -1,0 +1,65 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  width: 15rem;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 2rem;
+}
+
+.spotify {
+  color: #1DB954;
+}
+
+.spotify:hover {
+  color:#49d379;
+  filter: drop-shadow(0 0 .5em #1DB954aa);
+}
+
+.instagram {
+  color: #C13584;
+}
+
+.instagram:hover {
+  color: #cf559a;
+  filter: drop-shadow(0 0 .5em #C13584aa);
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 1em #a1a599aa);
+}
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
