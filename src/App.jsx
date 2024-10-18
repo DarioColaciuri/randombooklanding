@@ -1,4 +1,5 @@
 import "./App.css";
+import { Link } from "react-router-dom";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
         <a className="instagram" href="">
           <i className="bi bi-instagram"></i>
         </a>
-        <a href="/random">RANDOMIZER</a>
+        <Link to="/random">RANDOMIZER</Link>
       </div>
     </>
   );
