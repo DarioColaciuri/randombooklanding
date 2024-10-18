@@ -1,0 +1,21 @@
+.result {
+  font-size: 24px;
+  transition: opacity 0.5s ease; /* Suaviza la transición */
+  opacity: 1;
+}
+
+.spinning {
+  animation: change 0.1s linear infinite; /* Cambia la velocidad de la animación */
+}
+
+@keyframes change {
+  0% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.1;
+  }
+}
